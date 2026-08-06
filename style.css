@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+    width:300px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+button{
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#mainContainer{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    padding: 10px;
+    border-radius: 5px;
+}
+#mainContainer img{
+    width:100%;
+    height:300px;
+    padding: 10px;
+    margin: 5px;
+}
+.rating{
+    color:yellow;
+}
